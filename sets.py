@@ -1,0 +1,12 @@
+a = set(["Jake", "John", "Eric"])
+b = set(["John", "Jill"])
+
+print(a.intersection(b))
+print(b.intersection(a))
+print()
+print(a.difference(b))
+print(b.difference(a))
+print()
+print(a.symmetric_difference(b))
+print()
+print(a.union(b))
